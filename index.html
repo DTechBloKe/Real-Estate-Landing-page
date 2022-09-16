@@ -28,10 +28,10 @@
       <!--<div class="nav-link">-->
         <ul class="nav-link">
           <li><a class="active" href="#"> Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Property</a></li>
-          <li><a href="#">Agent</a></li>
-          <span><li><a href="#">Find A Home</a></li></span>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#property1">Property</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <span><li><a href="#search">Find A Home</a></li></span>
         </ul>
       </div>
     </nav>
@@ -45,6 +45,7 @@
     <div class="Dream-home-text">
       <div class="right-imges">
         <img src="images\banner.jpeg">
+        <p>Wellcome To Your Dream Home</p>
       </div>
       
 
@@ -72,30 +73,48 @@
   </div>
    
     </div>
-    <form class="form">
-      <div class="container">
+    <form id="search" class="form">
       <h2>Search For Properties</h2>
+      <div class="container">
+     
       <div class="form-input">
-         <!--icons here-->
-        <input type="search" placeholder="Location"> 
-        <!--icons here-->
-        <input type="search" placeholder="Property Type" />
-        <!--icons here-->
-        <input type="search" placeholder="Budget" />
-        <button>Search Now</button>
+          <div class="text-icon">
+            <input type="search">
+            <div class="icon">
+            <p>Location</p>
+            <i class="bi bi-geo-alt"></i>
+          </div>
+      </div>
+      <div class="text-icon">
+        <input type="search">
+        <div class="icon">
+        <p>Property Type</p>
+        <i class="bi bi-house-door"></i>
+      </div>
+      </div>
+      <div class="text-icon">
+        <input type="search"> 
+        <div class="icon"> 
+        <p>Budget</p>
+        <i class="bi bi-currency-dollar"></i>
+      </div>
       </div>
      
+       
+      </div>
+      <button>Search Now</button>
     </div>
     </form>
-    <div class="container3">
-      <div class="section-caption">
-        <p>Our Latest Properties</p>
-      </div>
-    <div class="latest-properties">
-    
+
+   <div id="property1" class="latest-properties">
+    <div class="section-caption">
+      <p>Our Latest Properties</p>
+    </div>
+    <div class="properties-container">
+          
       <div class="property-one">
         <div class="for-sale-img">
-        <img src="images\House-insurance.webp" width="100%" height="250px" />
+        <img src="images\House-insurance.jpeg" />
         <div class="for-sale">
         <p>For Sale</p>
       </div>
@@ -118,69 +137,230 @@
 
         </div>
         <div class="box-profile">
-            <img src="images\banner.jpeg" height="35px" width="35px">
+            <img src="images\pp1.jpg" height="35px" width="35px">
             <p>Jim Peters</p>
         </div>
       </div>
-      <div class="property-two">
-        <div class="for-sale-img">
-          <img src="images\House-insurance.webp" width="100%" height="250px" />
-          <div class="for-sale">
-          <p>For Sale</p>
-        </div>
-      </div>
-        <div class="location">
-          <span><i class="bi bi-geo-alt"></i></i></span>
-          <span><p>Banana Island,Lagos</p></span>
-        </div>
-        <div class="stat">
-            <span
-            ><i class="bi bi-clipboard-data"></i> <span><p>10x10 m</p></span></span>
-            
-            <span><i class="uil uil-bed-double"></i>
-          <span><p>4 beds</p></span></span>
-          
-          <span><i class="bi bi-graph-up-arrow"></i><span><p>1600 m</p></span></span>
-         
-        </div>
-        <div class="border1">
-          
-        </div>
-        <div class="box-profile">
-            <img src="images\banner.jpeg" height="35px" width="35px">
-            <p>Jim Peters</p>
-        </div>
-      </div>
-      <div class="property-three">
-        <div class="for-sale-img">
-          <img src="images\House-insurance.webp" width="100%" height="250px" />
-          <div class="for-sale">
-          <p>For Sale</p>
-        </div>
-      </div>
-        <div class="location">
-          <span><i class="bi bi-geo-alt"></i></i></span>
-          <span><p>Banana Island,Lagos</p></span>
-        </div>
-        <div class="stat">
-            <span
-            ><i class="bi bi-clipboard-data"></i> <span><p>10x10 m</p></span></span>
-            
-            <span><i class="uil uil-bed-double"></i>
-          <span><p>4 beds</p></span></span>
-          
-          <span><i class="bi bi-graph-up-arrow"></i><span><p>1600 m</p></span></span>
-         
-        </div>
-        <div class="border1">
-          
-        </div>
-        <div class="box-profile">
-            <img src="images\banner.jpeg" height="35px" width="35px">
-            <p>Jim Peters</p>
-        </div>
+
+    
+    <div class="property-two">
+      <div class="for-sale-img">
+        <img src="images\house 4.jpg"/>
+        <div class="for-sale">
+        <p>For Sale</p>
       </div>
     </div>
+      <div class="location">
+        <span><i class="bi bi-geo-alt"></i></i></span>
+        <span><p>Banana Island,Lagos</p></span>
+      </div>
+      <div class="stat">
+          <span
+          ><i class="bi bi-clipboard-data"></i> <span><p>10x10 m</p></span></span>
+          
+          <span><i class="uil uil-bed-double"></i>
+        <span><p>4 beds</p></span></span>
+        
+        <span><i class="bi bi-graph-up-arrow"></i><span><p>1600 m</p></span></span>
+       
+      </div>
+      <div class="border1">
+        
+      </div>
+      <div class="box-profile">
+          <img src="images\pp3.jpg" height="35px" width="35px">
+          <p>Chris Blue</p>
+      </div>
     </div>
+    <div class="property-three">
+      <div class="for-sale-img">
+        <img src="images\home2.jpeg" />
+        <div class="for-sale">
+        <p>For Sale</p>
+      </div>
+    </div>
+      <div class="location">
+        <span><i class="bi bi-geo-alt"></i></i></span>
+        <span><p>Banana Island,Lagos</p></span>
+      </div>
+      <div class="stat">
+          <span
+          ><i class="bi bi-clipboard-data"></i> <span><p>10x10 m</p></span></span>
+          
+          <span><i class="uil uil-bed-double"></i>
+        <span><p>4 beds</p></span></span>
+        
+        <span><i class="bi bi-graph-up-arrow"></i><span><p>1600 m</p></span></span>
+       
+      </div>
+      <div class="border1">
+        
+      </div>
+      <div class="box-profile">
+          <img src="images\pp2.jpg" height="35px" width="35px">
+          <p>Rock Jack</p>
+      </div>
+    </div>
+  </div>
+  <div class="founder">
+    <p><i class="bi bi-quote"></i>Our bussiness foundation is based off our clients needs,and<br>  also we are glad that we could share luxury and comfy<br>  experiences with our clients.</p>
+    <h1>Carty Gate <br>Founder</h1>
+  
+  </div>
+   </div>
+   <div  id="service" class="service-section">
+  <div class="service-card">
+<div class="left-side">
+  <h2>Villa on Victorial Island,<br>Lagos</h2>
+  <div class="stats">
+    <span
+    ><i class="bi bi-clipboard-data"></i> <span><p>10x10 m</p></span></span>
+    
+    <span><i class="uil uil-bed-double"></i>
+  <span><p>4 beds</p></span></span>
+  
+  <span><i class="bi bi-graph-up-arrow"></i><span><p>1600 m</p></span></span><br>
+ 
+ 
+</div>
+<div class="boreder">
+    
+</div>
+<div class="box-profiles">
+  <img src="images\pp2.jpg" height="35px" width="35px">
+  
+</div>
+</div>
+<div class="img-right">
+  <img src="images\room.jpg">
+</div>
+  </div>
+   <div class="our-services">
+    <div class="header">
+      <div class="bordr"></div>
+      <h2>Our Services</h2>
+    </div>
+    <div class="service-subhead">
+      <div class=" service-sec1">
+      <h3>Your Comfort Is Our Priority </h3>
+      <p>We can help you find te perfect one! We'll<br> show you a varieties of homes in your<br> area and help you choose the best one <br>for your needs.</p>
+    </div>
+      <div class="priorities">
+       <span><i class="bi bi-dot"></i><h2>Wilder Audience</h2></span>
+       <span><i class="bi bi-dot"></i><h2>Free Marketing</h2></span>
+       <span><i class="bi bi-dot"></i><h2>No Valuation</h2></span>
+       <span><i class="bi bi-dot"></i><h2>Manage View</h2></span>
+      </div>
+    </div>
+    <div class="button">
+      <button><a href="#"> See More...</a></button>
+    </div>
+  </div>
+</div>
+<div id="blog" class="blog-section">
+<div class="blog-header">
+  <div>
+  <div class="bordr"></div>
+  <h2>Our BLOG</h2>
+</div>
+  <h2>Latest Information</h2>
+  <p>Stay up to date with all the information about<br> our listed properties</p>
+</div>
+<div class="blog-cards">
+  <div class="card1">
+  <img class="picture" src="images\home1.jpeg">
+  <div class="news">
+  <span><i class="bi bi-dot"></i><h4>2 July 2022</h4></span>
+  <div class="bordr"></div>
+  
+  <h3>Price may deep<br>in some markets:5   <br>economists and real <br>estate  pros on what<br> to expect</h3>
+  <button><a href="#"> See More</a></button>
+  </div>
+</div>
+<div class="card1">
+  <img class="picture" src="images\home2.jpeg">
+  <div class="news">
+  <span><i class="bi bi-dot"></i><h4>2 July 2022</h4></span>
+  <div class="bordr"></div>
+  <h3>Price may deep<br>in some markets:5   <br>economists and real <br>estate  pros on what<br> to expect</h3>
+  <button><a href="#"> See More</a></button>
+</div>
+</div>
+<div class="card1">
+  <img class="picture" src="images\House-insurance.jpeg">
+  <div class="news">
+  <span><i class="bi bi-dot"></i><h4>2 July 2022</h4></span>
+  <div class="bordr"></div>
+  
+  <h3>Price may deep<br>in some markets:5   <br>economists and real <br>estate  pros on what<br> to expect</h3>
+  <button><a href="#"> See More</a></button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="testimony-section">
+  <div class="container3">
+  <div class="blog-header">
+    <div>
+      <div class="bordr"></div>
+      <h2>TESTIMONIAL</h2>
+    </div>
+    <h1>Clients Testimonials</h1>
+  </div>
+  <div class="testimony-container">
+    <div class="client1">
+    <img src="images\tacha.webp">
+    <div class="client-text">
+      <h2 style="background:rgb(63, 42, 4) ; width:fit-content;border: 2px solid black;">Tacha Akide</h2>
+    <p>I'm very impressed with the cusomer service.<br>
+      I'll definitely revisit and recommend more people<br> out your service.
+    </p>
+    <h3 style="border-right:2px solid black; border-left:2px solid;"> Social Medial Influencer</h3>
+  </div>
+  </div>
+  
+    <div class="client1">
+    <img src="images\toke.jpg">
+    <div class="client-text">
+      <h2 style="background:rgb(63, 42, 4); width:fit-content;border: 2px solid black;`">Toke Makinwa</h2>
+    <p>I'm very impressed with the cusomer service.<br>
+      I'll definitely revisit and recommend more people<br> out your service.
+    </p>
+    <h3 style="border-right:2px solid; border-left:2px solid;"> Lifestyle Influencer</h3>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+  <div class="quick-links">
+    <h2>Quick Links</h2>
+    <h3><a href="#">Home</a></h3>
+    <h3><a href="#">About</a></h3>
+    <h3><a href="#">Service</a></h3>
+    <h3><a href="#">Blog</a></h3>
+    <h3><a href="#">Contact</a></h3>
+  </div>
+  <div class="service">
+<h2>Services</h3>
+<h3>About Us</h3>
+<h3>Blog & Article</h3>
+<h3>Terms And Condition</h3>
+<h3>Privacy Policy</h3>
+<h3>Contact Us</h3>
+  </div>
+  <div class="contact">
+  <h2>Contact</h2>
+  <h3><Address>Address:Floor 20 Ozumba Mbadiwe <br>Victorial Island Lagos</Address></h3>
+  <h3>Phone:0999889</h3>
+  <h3><a href="mailto:ogunleyekolapo50@gmail.com">Email</a></h3>
+</div>
+</footer>
+
+
+
+
+
   </body>
 </html>
