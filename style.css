@@ -39,6 +39,9 @@ border-radius: 30px;
 margin-lef: 20px;
 
 }
+nav .logo img:hover{
+    cursor: pointer;
+}
 .nav-link {
     position: fixed;
     width: 100%;
@@ -241,24 +244,22 @@ cursor:help;
 }
 .form{
     display:flex; 
-    background-color:cornflowerblue;
+    background-color:whitesmoke;
     flex-direction: column; 
-    width: 95%;
+    width: 90%;
     
     align-items: center;
     justify-content: center;
     margin-top: 9rem;
    height: 400px;
-   margin-left: 7px; 
+   margin-left: 17px; 
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 }
-.form h2{
-    background: white;
-}
+
 .form-input{
     display:flex;
     flex-direction: column;
-    widt: 80%;
     gap:10px;
     margin-top: 2rem;
    /* grid-template-columns: 90%;
@@ -307,6 +308,7 @@ cursor:help;
     margin-top: 6px;
     color: whitesmoke;
     font-size: 1.2rem;
+    border-radius: 5px;
 }
 
 @media all and (min-width:900px){
@@ -399,7 +401,7 @@ cursor:help;
     .form{
         display: flex;
         height: 160px;
-        background:red;
+        background:cornflowerblue;
         width: 80%;
         align-items: center;
         justify-content: center;
@@ -452,7 +454,7 @@ cursor:help;
         text-align: center;
         margin-righ: 50px;
         border-radius: 4px;
-        border: none;
+        border: navy;
         outline: none;
 
 
@@ -480,14 +482,16 @@ cursor:help;
 
 .latest-properties{
     color: ;
-    margin-top: 5rem;
+    margin-top: 10rem;
     background-color: whitesmoke;
 
 }
 .section-caption p{
-    font-size:x-large ;
-    margin-top:-2rem;
-    color:red;
+    font-size:20px ;
+    margin-top:rem;
+    position: relative;
+    top:-2rem;
+    color:;
     z-index: 1;
     text-align: center;
     
@@ -507,27 +511,24 @@ cursor:help;
 }
 
 .property-one{
-    heigh: 250px;
     width: 90%;
-    background:cornflowerblue;
+    background:whitesmoke;
     display: flex;
     flex-direction: column;
     
 
 }
 .property-two{
-    heigh: 250px;
     width: 90%;
-    background:cornsilk;
+    background:whitesmoke;
     display: flex;
     flex-direction: column;
     
 
 }
 .property-three{
-    heigh: 250px;
     width: 90%;
-    background:cornsilk;
+    background:whitesmoke;
     display: flex;
     flex-direction: column;
     
@@ -536,7 +537,7 @@ cursor:help;
 .location {
     display: flex;
     flex-direction: row;
-    margin:10px 20px;  
+    margin:10px 27px;  
 
 }
 .location span{
@@ -620,12 +621,15 @@ cursor:help;
     }
     .property-one{
         width: 23rem;
+        background: whitesmoke;
     }
     .property-two{
         width: 23rem;
+        background: whitesmoke;
     }
     .property-three{
         width: 23rem;
+        background: whitesmoke;
     }
     .location span{
         margin-left: 25px;
@@ -654,7 +658,7 @@ cursor:help;
         flex-direction: column;
         justify-content: space-around;
         margin: 4rem auto;
-        background: cornflowerblue;
+        background: whitesmoke;
         height: 25rem;
         align-items: center;
         width: 95%;
@@ -662,7 +666,7 @@ cursor:help;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-
+        color:cornflowerblue
     }
     .service-card{
         display: none;
@@ -748,6 +752,10 @@ cursor:help;
         border-radius: 10px;
         border: none;
     }
+    .our-services .button button:hover{
+        background: #04121f;
+        border: solid white;
+    }
     .our-services .button a{
         color: white;
         font-size: larger;
@@ -759,7 +767,7 @@ cursor:help;
         flex-direction: row;
         justify-content: space-around;
         margin-top:4rem ;
-        background:wheat;
+        background:whitesmoke;
         height: 600px;
         align-items: center;
 
@@ -768,10 +776,11 @@ cursor:help;
     .service-card{
         display: flex;
         flex-direction: row;
-        background: wheat;
+        background: white;
         width: 36%;
         height: 350px;
         border-radius: 5px;
+        color:black;
         
 
         
@@ -949,7 +958,7 @@ position: relative;
     top:0;
     display: flex;
     flex-direction: column;
-   margin: 20px 20px;
+   margin: 38px 20px;
 }
 .blog-cards .picture{
     width: 100%;
@@ -1106,13 +1115,14 @@ position: relative;
 }
 }
 .testimony-section{
-    background-color:cornsilk;
-    height: 400px;
+    background-color:#2a2b51;
+    height: 420px;
     position:relative;
    top:35rem;
     color: white;
-    width: 85%;
+    width: 95%;
     margin: auto;
+    border-radius: 10px;
     
 }
 .blog-header {
@@ -1121,8 +1131,8 @@ position: relative;
 .blog-header h1{
     display: none;
 }
-.blog-header h2{
-    font-size: larger;
+.blog-header .bordr{
+    margin-top: 10px;
 }
 .client1{
     display: flex;
@@ -1130,7 +1140,9 @@ position: relative;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    background:whitesmoke;
+    margin-left: 20px;
+    
+    background:#2a2b51;
     color: ;
 }
 .client1 img{
@@ -1225,7 +1237,10 @@ footer{
     position: relative;
     top:40rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
+    background:rgb(35, 34, 34);
+    color: whitesmoke;
+    gap: 30px;
 }
 
 @media all and (min-width:900px){
@@ -1240,7 +1255,8 @@ footer{
         gap: 5rem;
         line-height: 35px; 
         height: 400px; 
-        background:red;
+        background:rgb(35, 34, 34);
+        color: whitesmoke;
         width: 100%;
        
     }
